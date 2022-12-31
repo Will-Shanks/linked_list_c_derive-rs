@@ -1,0 +1,14 @@
+[package]
+name = "linked_list_c_derive"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Will-Shanks/linked_list_c_derive-rs"
+description = "Safely work with c compatible linked lists"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = {version = "1", features = ["derive"]}
+quote = "1"
